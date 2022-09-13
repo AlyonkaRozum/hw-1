@@ -1,0 +1,160 @@
+nav{
+  float: right;
+  margin-right: 470px;
+  margin-top: 0%;
+  display: block;
+}
+.container {
+ /*создаем Flex контейнер */
+            /*Значение display: flex делает контейнер блочным элементом/ display:inline-flex значение превращает его в инлайн-элемент.*/
+            display: flex;
+            /*flex-direction - Позволяет вращать главную ось 
+            row (значение по умолчанию) : слева направо    
+            row-reverse: справа налево
+            column: сверху вниз
+            column-reverse: снизу вверх        
+                */
+            flex-direction: row;
+            width: 40%;
+            height: 30px;
+            margin-top: 2%;
+            margin-left:400px;
+            padding-left: 5px;
+            background-color: white;
+            align-items: center;
+        }
+
+a {
+          font-style:normal;
+          font-size: large;
+          margin-right: 15px;
+          text-decoration: none;
+        }
+section {
+  width: 17%;
+  float: left;
+  margin-left: 405px;
+  margin-right: 0px;
+  margin-top: 30px;
+}
+a.button {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: red;
+  width: 250px;
+  height: 50px;
+}
+aside {
+  height: 280px;
+  float: right;
+  margin-right: 410px;
+}
+.text {
+  width: 300px;
+  height: 500px;
+  margin-left: 70px;
+}
+article {
+  margin-left: 410px;
+}
+.pics {
+  /*создаем Flex контейнер */
+             /*Значение display: flex делает контейнер блочным элементом/ display:inline-flex значение превращает его в инлайн-элемент.*/
+             display: flex;
+             /*flex-direction - Позволяет вращать главную ось 
+             row (значение по умолчанию) : слева направо    
+             row-reverse: справа налево
+             column: сверху вниз
+             column-reverse: снизу вверх        
+                 */
+             flex-direction: row;
+             width: 40%;
+             height: 50px;
+             margin-top: 2%;
+             margin-left: 450px;
+             padding-left: 40px;
+             background-color: white;
+             align-items: center;
+}
+.content {
+  /*создаем Flex контейнер */
+             /*Значение display: flex делает контейнер блочным элементом/ display:inline-flex значение превращает его в инлайн-элемент.*/
+             display: flex;
+             /*flex-direction - Позволяет вращать главную ось 
+             row (значение по умолчанию) : слева направо    
+             row-reverse: справа налево
+             column: сверху вниз
+             column-reverse: снизу вверх        
+                 */
+             flex-direction: row;
+             width: 40%;
+             height: 50px;
+             margin-top: 3px;
+             margin-left: 430px;
+             padding-left: 40px;
+             background-color: white;
+             align-items: center;
+         }
+.info{
+  /*создаем Flex контейнер */
+             /*Значение display: flex делает контейнер блочным элементом/ display:inline-flex значение превращает его в инлайн-элемент.*/
+             display: flex;
+             /*flex-direction - Позволяет вращать главную ось 
+             row (значение по умолчанию) : слева направо    
+             row-reverse: справа налево
+             column: сверху вниз
+             column-reverse: снизу вверх        
+                 */
+             flex-direction: row;
+             width: 40%;
+             height: 40px;
+             margin-top: 5px;
+             margin-right: 10px;
+             margin-left: 400px;
+             padding-left: 40px;
+             background-color: white;
+
+}
+.btn {
+  /*создаем Flex контейнер */
+             /*Значение display: flex делает контейнер блочным элементом/ display:inline-flex значение превращает его в инлайн-элемент.*/
+             display: flex;
+             /*flex-direction - Позволяет вращать главную ось 
+             row (значение по умолчанию) : слева направо    
+             row-reverse: справа налево
+             column: сверху вниз
+             column-reverse: снизу вверх        
+                 */
+             flex-direction: row;
+             width: 550px;
+             height: 20px;
+             margin-top: 110px;
+             margin-left: 440px;
+             background-color: white;
+
+}
+         footer {
+          margin-top: 700px;
+         }
+.end1 {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 50px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 400px;
+}
+.end2 {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 50px;
+  background-color: white;
+  margin-top: 0px;
+  margin-left: 400px;
+}
